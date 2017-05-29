@@ -13,6 +13,9 @@
 		0AD4E2281EDBEE9B00A92F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4E2261EDBEE9B00A92F65 /* LaunchScreen.storyboard */; };
 		0AD4E2331EDBEE9B00A92F65 /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E2321EDBEE9B00A92F65 /* TacoPOPTests.swift */; };
 		0AD4E2441EDBEF1A00A92F65 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E2431EDBEF1A00A92F65 /* MainVC.swift */; };
+		0AD4E2461EDBF1D600A92F65 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E2451EDBF1D600A92F65 /* DropShadow.swift */; };
+		0AD4E2481EDBF28B00A92F65 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E2471EDBF28B00A92F65 /* HeaderView.swift */; };
+		0AD4E24A1EDC775600A92F65 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4E2491EDC775600A92F65 /* Taco.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		0AD4E2321EDBEE9B00A92F65 /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
 		0AD4E2341EDBEE9B00A92F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD4E2431EDBEF1A00A92F65 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		0AD4E2451EDBF1D600A92F65 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		0AD4E2471EDBF28B00A92F65 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0AD4E2491EDC775600A92F65 /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		0AD4E23F1EDBEEC800A92F65 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				0AD4E2451EDBF1D600A92F65 /* DropShadow.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 		0AD4E2411EDBEED600A92F65 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0AD4E2491EDC775600A92F65 /* Taco.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 			children = (
 				0AD4E2211EDBEE9B00A92F65 /* Main.storyboard */,
 				0AD4E2261EDBEE9B00A92F65 /* LaunchScreen.storyboard */,
+				0AD4E2471EDBF28B00A92F65 /* HeaderView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -249,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD4E24A1EDC775600A92F65 /* Taco.swift in Sources */,
 				0AD4E21E1EDBEE9B00A92F65 /* AppDelegate.swift in Sources */,
+				0AD4E2461EDBF1D600A92F65 /* DropShadow.swift in Sources */,
 				0AD4E2441EDBEF1A00A92F65 /* MainVC.swift in Sources */,
+				0AD4E2481EDBF28B00A92F65 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
